@@ -1,0 +1,26 @@
+<html>
+<head>
+<link href="harsh_ajax/calendar-win2k-2.css" type="text/css">
+<script type="text/javascript" src="harsh_ajax/calendar2.js"></script>
+</head>
+<body>
+	<input id="data" name="data" maxlength="10" value="2011-06-15" style="color: rgb(255, 0, 0); width: 75px;" autocomplete="off" onKeyPress="if(event.keyCode == 13) javascript:return subdata('0');" onKeyUp="checnum(this)" type="text">
+			  			<button id="trigger">...</button>
+			  			
+			  			<script type="text/javascript">
+                            var CALEN=Calendar.setup(
+                            {                       
+                                  inputField  : "data",         // ID of the input field
+                                  ifFormat    : "%Y-%m-%d",    // the date format
+                                  button      : "trigger" ,
+                                  timeFormat  : "12",
+                                  weekNumbers : false
+                                }
+                          );
+                       </script>
+
+			 <span style="font-size: 9px; font-weight: normal;">(yyyy-mm-dd)</span>
+			 <input id="chdate" name="chdate" value="" type="hidden">
+
+</body>
+</html>

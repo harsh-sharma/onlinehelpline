@@ -1,0 +1,151 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Verdana, Arial, Helvetia, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	background: #d4e6f4;
+}
+image{
+	border: none;
+}
+table, tr, td{
+	border-collapse: collapse;
+	vertical-align: top;
+	font-size: 12px;
+	line-height: 15px;
+}
+a{
+	color: #8d0d19;
+}
+.mandatory{
+	color:#ff0033;
+	font-weight:bold;
+}
+/***********************Header********************/
+#header{
+	height: 90px;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	background: #231ec0;
+	color: #d4e6f4;
+}
+#header a{
+	color:#FFCC66;
+}
+#header h1{
+	margin: 0px;
+	padding: 1em;
+}
+
+/***********************Main********************/
+#main{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #eee4b9;
+}
+
+/***********************Structure********************/
+#structure{
+	width: 100%;
+	padding-bottom:50px;
+}
+
+		/***********************Navigation********************/
+		
+		
+		#menu ul{
+			list-style:none;
+		}
+		
+		
+		#navigation{
+			width: 220px;
+			padding: 0;
+			color: #d4e6f4;
+			background:#8faf39;
+			/*background: #8d0d19;*/
+		}
+		#navigation li
+		{
+		list-style:none;
+				margin:3px 0;
+		}
+		#navigation a{
+			list-style:none;
+					background:#8faf39 url(images/menu_033_bg.gif) no-repeat;
+					color:#fff;
+					text-transform:uppercase;
+					font-size:11px;
+					font-weight:bold;
+					text-decoration:none;
+					display:block;
+					height:35px;
+					line-height:35px;
+					padding:0 0 0 20px;
+		}
+	#navigation li a:hover{
+						background:#da4a70 url(images/menu_033_h.gif) no-repeat;
+						color:#fff;
+						text-decoration:none;
+					}
+		ul.subjects{
+			padding-left: 0;
+			list-style: none;
+		}
+		ul.pages{
+			padding-left: 2em;
+			list-style: square;
+		}
+		.selected{
+			font-weight: bold;
+		}
+		
+		/***********************Page Content********************/
+		#page{
+			padding-left: 2em;
+			vertical-align: top;
+			background: #eee4b9;
+			/*background-image:url("images/Image0657.jpg");*/
+			background-image:url(../images/Image0657.jpg);
+		}
+		#page h2{
+			color: #8d0d19;
+			margin-top: 1em;
+		}
+		#page h3{
+			color: #8d0d19;
+			margin-top: 1em;
+		}
+	select
+{
+ padding:5px;
+}	
+/***********************Footer********************/
+#footer{
+	height: 2em;
+	width:100%;
+	margin: 0px;
+	padding: 1px;
+	text-align: center;
+	background: #1a446c;
+	color: #d4e6f4;
+}
+ tr.rowhd:hover
+{
+ background-color:#FFFFE6;
+}
+th
+{
+ background-color:#FFFFE6;
+}
